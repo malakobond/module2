@@ -1,0 +1,18 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // Задаем оператор сканер для того что б иметь возможность вводить вручную
+        String Name; // Задаем переменную массив под названием "Name"
+        String City;// --//--
+        int Age;// --//--
+        String Hobby;// --//--
+
+        Name = sc.nextLine(); // Вводим переменную "Name "
+        City = sc.nextLine(); // --//--
+        Hobby = sc.nextLine();// --//--
+        Age = sc.nextInt();// --//--
+
+
+        System.out.println("Человек по имени " + Name + " живет в городе " + City ); // Выводим в консоль текст + введенные данные
+
+        System.out.print("Этому человеку " + Age + " лет и любит он заниматься " + Hobby );
